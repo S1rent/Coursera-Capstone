@@ -66,7 +66,7 @@ export default function Navbar() {
               />
             </li>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <a href="#">About</a>
@@ -75,7 +75,7 @@ export default function Navbar() {
               <a href="#">Menu</a>
             </li>
             <li>
-              <a href="#">Reservations</a>
+              <Link to="/reservations">Reservations</Link>
             </li>
             <li>
               <a href="#">Order Online</a>
